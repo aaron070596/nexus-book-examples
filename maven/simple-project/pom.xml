@@ -29,9 +29,9 @@
     </site>
   </distributionManagement>
  <scm>
-	<url>https://b7e7dfed2eccead099822c6da5f677cc52b4ef99@github.com/aaron070596/nexus-book-examples</url>
-	<connection>scm:git:git://b7e7dfed2eccead099822c6da5f677cc52b4ef99@github.com:aaron070596/nexus-book-examples.git</connection>
-	<developerConnection>scm:git:git://b7e7dfed2eccead099822c6da5f677cc52b4ef99@github.com:aaron070596/nexus-book-examples.git</developerConnection>
+	<url>https://dd094a3442897212b2aa2698be6dd0a470c9536f@github.com/aaron070596/nexus-book-examples</url>
+	<connection>scm:git:git://dd094a3442897212b2aa2698be6dd0a470c9536f@github.com:aaron070596/nexus-book-examples.git</connection>
+	<developerConnection>scm:git:git://dd094a3442897212b2aa2698be6dd0a470c9536f@github.com:aaron070596/nexus-book-examples.git</developerConnection>
 	<tag>HEAD</tag>
 </scm> 
   <build>
