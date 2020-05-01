@@ -16,12 +16,12 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
+      <url>http://localhost:443/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+      <url>http://localhost:443/repository/maven-snapshots</url>
     </snapshotRepository>
     <site>
       <id>nexus</id>
@@ -29,6 +29,11 @@
       <url>dav:http://localhost:8081/nexus/content/sites/site/</url>
     </site>
   </distributionManagement>
+ <scm>
+	<url>https://c14a16b091035020776ce3f2d2c0fb9692235e23@github.com/aaron070596/nexus-book-examples</url>
+	<connection>scm:git:https://c14a16b091035020776ce3f2d2c0fb9692235e23@github.com:aaron070596/nexus-book-examples.git</connection>
+	<developerConnection>scm:git:https://c14a16b091035020776ce3f2d2c0fb9692235e23@github.com:aaron070596/nexus-book-examples.git</developerConnection>
+</scm> 
   <build>
     <plugins>
       <plugin>
@@ -45,6 +50,16 @@
           <locales>en,fr</locales>
         </configuration>
       </plugin>
+	<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-release-plugin</artifactId>
+  <configuration>
+    <checkModificationExcludes>
+        <checkModificationExclude>pom.xml</checkModificationExclude>
+	<checkModificationExclude>**</checkModificationExclude>
+    </checkModificationExcludes>
+  </configuration>
+</plugin>
     </plugins>
   </build>
   <dependencies>
