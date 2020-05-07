@@ -31,7 +31,7 @@
  <scm>
 	<url>https://github.com/aaron070596/nexus-book-examples</url>
 	<connection>scm:git:git@github.com:aaron070596/nexus-book-examples.git</connection>
-	<developerConnection>scm:git:git@github.com:aaron070596/nexus-book-examples.git</developerConnection>
+	<developerConnection>scm:git:git@github.com:aaron070596/nexus-book-examples/</developerConnection>
 	<tag>HEAD</tag>
 </scm> 
   <build>
