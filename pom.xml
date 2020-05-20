@@ -56,7 +56,7 @@
 	  <version>2.5.3</version>
 	  <configuration>
 	      <checkModificationExcludes>
-		<checkModificationExclude>**/*.java</checkModificationExclude>
+		<checkModificationExclude>pom.xml</checkModificationExclude>
 	      </checkModificationExcludes>
 	      <tagNameFormat>v@{project.version}</tagNameFormat>
 	      <autoVersionSubmodules>true</autoVersionSubmodules>
