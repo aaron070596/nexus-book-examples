@@ -56,7 +56,7 @@
   <version>2.5.3</version>
   <configuration>
     <checkModificationExcludes>
-      <checkModificationExclude>src/main/java/org/sonatype/nexus/examples/Data2.java</checkModificationExclude>
+      <checkModificationExclude>**\*.java</checkModificationExclude>
     </checkModificationExcludes>
       <tagNameFormat>v@{project.version}</tagNameFormat>
       <autoVersionSubmodules>true</autoVersionSubmodules>
