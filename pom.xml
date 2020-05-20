@@ -3,7 +3,7 @@
 
   <groupId>org.sonatype.nexus.examples</groupId>
   <artifactId>simple-project</artifactId>
-  <version>3.0.26</version>
+  <version>3.0.28-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>simple-project</name>
@@ -32,7 +32,7 @@
 	<url>https://github.com/aaron070596/nexus-book-examples</url>
 	<connection>scm:git:git@github.com:aaron070596/nexus-book-examples.git</connection>
 	<developerConnection>scm:git:git@github.com:aaron070596/nexus-book-examples.git</developerConnection>
-	<tag>v3.0.26</tag>
+	<tag>v3.0.18</tag>
 </scm> 
   <build>
     <plugins>
@@ -55,7 +55,7 @@
   <artifactId>maven-release-plugin</artifactId>
   <version>2.5.3</version>
   <configuration>
-      <tagNameFormat>v@{project.version}</tagNameFormat>
+      <tagNameFormat>v@{project.version}-RELEASE</tagNameFormat>
       <autoVersionSubmodules>true</autoVersionSubmodules>
   </configuration>
   </plugin>
@@ -183,5 +183,11 @@
       <artifactId>jyield</artifactId>
       <version>0.0.6</version>
     </dependency>
+	<dependency>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-war-plugin</artifactId>
+	  <version>3.2.3</version>
+	  <type>maven-plugin</type>
+   	</dependency>	
   </dependencies>
 </project>
