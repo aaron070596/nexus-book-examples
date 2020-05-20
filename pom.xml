@@ -3,7 +3,7 @@
 
   <groupId>org.sonatype.nexus.examples</groupId>
   <artifactId>simple-project</artifactId>
-  <version>3.0.31-SNAPSHOT</version>
+  <version>3.0.31</version>
   <packaging>jar</packaging>
 
   <name>simple-project</name>
@@ -32,7 +32,7 @@
 	<url>https://github.com/aaron070596/nexus-book-examples</url>
 	<connection>scm:git:git@github.com:aaron070596/nexus-book-examples.git</connection>
 	<developerConnection>scm:git:git@github.com:aaron070596/nexus-book-examples.git</developerConnection>
-	<tag>v3.0.18</tag>
+	<tag>v3.0.31</tag>
 </scm> 
   <build>
     <plugins>
