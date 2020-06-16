@@ -81,7 +81,7 @@
     <dependency>
       <groupId>org.shoal</groupId>
       <artifactId>shoal-gms-api</artifactId>
-      <version>1.5.8</version>
+      <version>1.6.52</version>
     </dependency>
     <dependency>
       <groupId>org.ow2.util</groupId>
